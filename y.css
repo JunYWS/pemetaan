@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: url(background1.jpg);
+}
+
+.input-box{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    background: white;
+    margin: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 1;
+    z-index: 5;
+    pointer-events: auto;
+    padding: 15px 30px;
+    margin: 5px 0;
+    font-size: 17px;
+    font-weight: 600;
+    transition: all 3s ease;
+    border-radius: 5px;
+    display: grid;
+    width: 540px;
+}
+
+.input-box .input-title{
+    height: 60px;
+    width: 100%;
+    position: relative;
+    border-bottom: 5px solid lightgrey;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    border-radius: 5px 5px 0 0;
+    font-size: 20px;
+    font-weight: 600;
+    background:white;
+    justify-content:space-around;
+    color: white;
+}
+.input-box .detailsone{
+    background-color:white;
+    color :black;
+    position: relative;
+    font-size: 25px;
+    font-variant-position: inherit;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: white;
+}
+
+.input-box .detailstwo{
+    background-color:white;
+    color :black;
+    font-size: 25px;
+    font-variant-position: inherit;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    background: white;
+}
+
+.input-box .univ{
+    position:relative;
+    background-color: white;
+    font-size: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 60px;
+    border-color:white;
+    color:black;
+    height: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    background: white;
+}
+
+.input-box .nilai{
+    position:relative;
+    background-color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 5px;
+    border-color:white;
+    color:black;
+    align-items: center;
+    justify-content: space-around;
+    height: 30px;
+    display: flex;
+    background: white;
+}
+
+.submit_btn{
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    background: #007bff;
+    border-radius: 9px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    align-items: center;
+    justify-content: space-around;
+    transform: translate(150%,0%);
+}
+
+.submit_btn:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
